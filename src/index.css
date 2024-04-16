@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Satoshi", sans-serif;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* ==========Chart Three========== */
+.apexcharts-legend,
+.apexcharts-toolbar {
+  display: none !important;
+}
+/* ==========Chart Foure========== */
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+  color: #64748b !important;
+  background-color: white !important;
+  font-size: 26px !important;
+  padding: 9px 9px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d1d1d1;
+}
+.dark .jvectormap-zoomin,
+.dark .jvectormap-zoomout {
+  background-color: #313d4a !important;
+  color: #aeb7c0 !important;
+  border-color: #313d4a;
+}
+.mapone .jvectormap-zoomout {
+  right: 10px !important;
+  bottom: 10px !important;
+  left: auto !important;
+  top: auto !important;
+}
+.mapone .jvectormap-zoomin {
+  right: 50px !important;
+  bottom: 10px !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+.maptwo .jvectormap-zoomout {
+  right: auto !important;
+  left: 50px !important;
+  top: auto !important;
+  bottom: 10px !important;
+}
+.maptwo .jvectormap-zoomin {
+  right: auto !important;
+  left: 10px !important;
+  top: auto !important;
+  bottom: 10px !important;
+}
+/* ================= */
+.active {
+  color: white;
+}
+/* ================= */
+.slick-next:before,
+.slick-prev:before {
+  content: "" !important;
+}
+.slick-prev {
+  left: -15px !important;
+}
+.slick-next {
+  right: 5px !important;
+}
+.slick-prev:before {
+  background-image: url("../public/images/stocks/arrow-left.svg");
+  width: 40px;
+  height: 40px;
+  left: -0px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(214, 214, 214);
+}
+
+.slick-next:before {
+  background-image: url("../public/images/stocks/arrow-right.svg");
+  width: 40px;
+  height: 40px;
+  /* right: 30px; */
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  display: block;
+  position: relative;
+  border-radius: 50%;
+  background-color: rgb(214, 214, 214);
+}
+.MuiStack-root,
+.MuiFormControl-root,
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100% !important;
+}
+.MuiInputBase-root {
+  border: none !important;
+  border: 1px solid rgba(226, 232, 240, 1) !important;
+}
