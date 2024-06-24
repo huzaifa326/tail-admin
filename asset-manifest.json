@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tail-admin/static/css/main.cee3361c.css",
+    "main.js": "/tail-admin/static/js/main.665de2fd.js",
+    "static/js/453.5aa260c6.chunk.js": "/tail-admin/static/js/453.5aa260c6.chunk.js",
+    "static/media/slick.svg": "/tail-admin/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/tail-admin/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/tail-admin/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/tail-admin/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/tail-admin/index.html",
+    "static/media/calender.svg": "/tail-admin/static/media/calender.896414d71e56f5a8b48c5dc0a8bcfae9.svg",
+    "static/media/calendar-icon.svg": "/tail-admin/static/media/calendar-icon.5f5537ff959fa41b5ff277d3eaa20923.svg",
+    "static/media/arrow-right.svg": "/tail-admin/static/media/arrow-right.4ab1835005e67448a03b.svg",
+    "static/media/arrow-left.svg": "/tail-admin/static/media/arrow-left.cc0495765fe5cf2bd5ef.svg",
+    "main.cee3361c.css.map": "/tail-admin/static/css/main.cee3361c.css.map",
+    "main.665de2fd.js.map": "/tail-admin/static/js/main.665de2fd.js.map",
+    "453.5aa260c6.chunk.js.map": "/tail-admin/static/js/453.5aa260c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cee3361c.css",
+    "static/js/main.665de2fd.js"
+  ]
+}
